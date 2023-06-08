@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "assert": "^2.0.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "firebase": "^9.21.0",
+    "firebase-admin": "^11.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "name": "eli-capstone-wdd499",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elilaiono/eli-capstone-wdd499.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elilaiono/eli-capstone-wdd499/issues"
+  },
+  "homepage": "https://github.com/elilaiono/eli-capstone-wdd499#readme",
+  "description": ""
+}
