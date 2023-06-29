@@ -1,0 +1,17 @@
+
+### Get all legs exercises
+GET http://localhost:8080/legs
+
+### Add legs exercise
+POST http://localhost:8080/legs/add HTTP/1.1
+Content-Type: application/json
+
+{
+  "exerciseName": "Lunges",
+  "description": "Step forward with one leg, lowering your body until your front knee is at a 90-degree angle. Push back up to the starting position and repeat with the other leg.",
+  "equipment": "None (bodyweight exercise)",
+  "difficultyLevel": "Beginner",
+  "duration": "15 mins",
+  "additionalNotes": "Keep your upper body straight and engage your core for stability."
+}
+

@@ -1,0 +1,15 @@
+### Get all push exercises
+GET http://localhost:8080/push
+
+### Add push exercise
+POST http://localhost:8080/push/add HTTP/1.1
+Content-Type: application/json
+
+{
+  "exerciseName": "Dumbbell Bench Press",
+  "description": "Just like a bench press, put you'll use dumbbells",
+  "equipment": "Dumbbells, Bench",
+  "difficultyLevel": "Intermediate",
+  "duration": "30 minutes",
+  "additionalNotes": "Focus on maintaining proper form and controlled movements."
+}

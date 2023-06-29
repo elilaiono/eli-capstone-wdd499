@@ -1,0 +1,20 @@
+### Get all users
+Get http://localhost:8080/users
+
+### Get by id
+Get http://localhost:8080/users/HhinugiS3FUxAmSr3dGQ7g83O522
+
+### Get by userId
+Get http://localhost:8080/users/
+
+### Add User
+POST http://localhost:8080/users/add HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName": "LeRoy",
+    "lastName": "Jenkins",
+    "email": "leroy@gmail.com",
+    "password": "leroy123"
+}
+

@@ -1,0 +1,17 @@
+### Get all cardio exercises
+GET http://localhost:8080/cardio
+
+### Add cardio exercise
+POST http://localhost:8080/cardio/add HTTP/1.1
+Content-Type: application/json
+
+{
+  "exerciseName": "Jumping Jacks",
+  "description": "Perform jumping jacks by jumping with legs spread wide and arms raised overhead, then returning to the starting position by jumping again.",
+  "equipment": "None",
+  "difficultyLevel": "Beginner",
+  "duration": "5 minutes",
+  "additionalNotes": "Maintain a steady pace and engage your core muscles throughout the exercise. Land softly and avoid locking your knees."
+}
+
+
