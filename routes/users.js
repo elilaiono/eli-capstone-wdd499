@@ -6,8 +6,6 @@ router.get('/', userController.getAll);
 
 router.get('/:id', userController.getById);
 
-// router.get(':userId', userController.getByUserId)
-
 router.post('/add', userController.createUser);
 
 module.exports = router;

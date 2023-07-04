@@ -48,7 +48,7 @@ const createUser = async (req, res) => {
       res.status(500).json({ error: 'Internal server error.' });
     }
   };
-  
+
   const getById = async (req, res) => {
     try {
       const userId = req.params.id;
@@ -73,11 +73,10 @@ const createUser = async (req, res) => {
     }
   };
 
-  
   module.exports = { 
     createUser,
     getAll,
-    getById
+    getById,
   }
     
     

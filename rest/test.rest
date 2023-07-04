@@ -1,0 +1,28 @@
+
+### GET FRIENDs 
+GET http://localhost:8080/friends
+
+### GET FRIEND 
+GET http://localhost:8080/friends/james
+
+### ADD A FRIEND 
+POST http://localhost:8080/addfriend Content-Type: application/json
+
+{
+"name": "pear", 
+"status": "friend"
+}
+
+### UPDATE STATUS OF A FRIEND 
+PATCH http://localhost:8080/changestatus Content-Type: application/json
+
+{
+"name": "tomato", "newStatus": "friend"
+}
+
+###DELETE A FRIEND 
+DELETE http://localhost:8080/friends Content-Type: application/json
+
+{
+"name": "banana"
+}
