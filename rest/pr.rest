@@ -1,0 +1,33 @@
+### GET ALL Personal Records by User
+GET http://localhost:8080/users/personal-records/EHwDJwISVCPEG33lkQbXGIGJN1h1
+
+### Create Personal Record
+POST http://localhost:8080/users/personal-records/add HTTP/1.1
+Content-Type: application/json
+
+{
+    "userId": "sampleUserId",
+    "title": "Bench Press",
+    "previousRecord": "295lbs",
+    "newRecord": "315lbs",
+    "recordDate": "2023-07-31T00:00:00.000Z",
+    "notes": "I hit that shit"
+}
+
+### Update Personal Record
+PUT http://localhost:8080/users/personal-records/EHwDJwISVCPEG33lkQbXGIGJN1h1/NDIJg4PxF6YmrsiLus5h HTTP/1.1
+Content-Type: application/json
+
+{
+    "userId": "sampleUserId",
+    "title": "Bench Press",
+    "previousRecord": "295lbs",
+    "newRecord": "315lbs",
+    "recordDate": "2023-07-31T00:00:00.000Z",
+    "notes": "I hit that shit, ez money"
+}
+
+
+
+### Delete goal
+DELETE http://localhost:8080/users/personal-records/EHwDJwISVCPEG33lkQbXGIGJN1h1/NDIJg4PxF6YmrsiLus5h

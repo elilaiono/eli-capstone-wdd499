@@ -1,0 +1,5 @@
+### Get progress pic from user
+GET http://localhost:8080/users/progress-pictures/EHwDJwISVCPEG33lkQbXGIGJN1h1
+
+### Delete progress pic
+DELETE http://localhost:8080/users/progress-pictures/EHwDJwISVCPEG33lkQbXGIGJN1h1/Ku4r0cA1WCVMugMAqbfp

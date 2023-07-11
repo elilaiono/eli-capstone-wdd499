@@ -1,8 +1,6 @@
 ### Get all users
 Get http://localhost:8080/users
 
-
-
 ### Get by userId
 Get http://localhost:8080/users/EHwDJwISVCPEG33lkQbXGIGJN1h1
 ### Add User

@@ -1,0 +1,5 @@
+### Get by user
+GET http://localhost:8080/users/weights/EHwDJwISVCPEG33lkQbXGIGJN1h1
+
+### Delete entry
+DELETE http://localhost:8080/users/weights/EHwDJwISVCPEG33lkQbXGIGJN1h1/K0cDmZWKLa3prP44wZHv
